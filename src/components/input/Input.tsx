@@ -23,7 +23,7 @@ const InputComponent = ({
         {...rest}
       />
       {error && (
-        <p className="text-red-500 text-sm mb-2 mx-1">{errorMessage}</p>
+        <p className="text-red-500 text-xs mt-0.5 mx-1">{errorMessage}</p>
       )}
     </div>
   );
